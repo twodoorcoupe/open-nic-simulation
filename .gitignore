@@ -1,0 +1,6 @@
+.idea
+.vscode
+build
+sim/venv
+sim/vivado*
+sim/nictest/__pycache__
