@@ -8,7 +8,7 @@ from .axi_stream import axis_to_packets, set_globals
 
 
 LAUNCH_SCRIPT_LOCATION = os.path.dirname(__file__) + "/run_simulation.tcl"
-VIVADO_SUPPORTED_VERSIONS = ['2022.1']
+VIVADO_SUPPORTED_VERSIONS = ['2022.1', '2022.2']
 
 
 class SimulationError(Exception):
